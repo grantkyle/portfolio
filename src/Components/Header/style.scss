@@ -1,0 +1,33 @@
+.gkp-header--text {
+    text-decoration: none;
+    color: 	(0,0,139);
+    &:hover {
+        font-weight: 600;
+        cursor: pointer;
+    }
+}
+
+.gkp-header--projects {
+
+}
+
+.gkp-header--about {
+}
+
+.gkp-header--contact {
+}
+
+.gkp-header-items {
+  font-size: 58px;
+  flex-direction: row;
+  display: inline-block;
+  padding: 30px;
+  text-decoration: none;
+  font-family: Veranda;
+  font-weight: 500;
+}
+
+.gkp-header {
+  text-align: right;
+  color: #00008B;
+}
