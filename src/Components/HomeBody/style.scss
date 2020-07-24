@@ -24,3 +24,24 @@
     font-size: 30px;
     font-weight: 400;
 }
+
+.gkp-homebody--social-icons {
+    padding: 10px;
+    display: inline-block;
+}
+
+#gkp-homebody--github__hover {
+&:hover {
+    color: #000000;
+}
+}
+
+#gkp-homebody--linkedin__hover {
+    &:hover {
+        fill: #0000FF;
+    }
+}
+
+#gkp-homebody--gmail__hover {
+fill: #FF0000;
+}
