@@ -26,22 +26,25 @@
 }
 
 .gkp-homebody--social-icons {
-    padding: 10px;
     display: inline-block;
+    margin: 10px;
 }
 
 #gkp-homebody--github__hover {
+    display: inline-block;
 &:hover {
     color: #000000;
 }
 }
 
 #gkp-homebody--linkedin__hover {
+    display: inline-block;
     &:hover {
         fill: #0000FF;
     }
 }
 
 #gkp-homebody--gmail__hover {
+    display: inline-block;
 fill: #FF0000;
 }
