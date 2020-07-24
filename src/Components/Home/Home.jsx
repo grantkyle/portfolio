@@ -1,11 +1,13 @@
 import React from 'react';
-import HeaderComponent from '../Header/HeaderComponent'
+import HeaderComponent from '../Header'
+import HomeBody from '../HomeBody'
 
 
 const Home = props => {
     return (
         <div>
-            <HeaderComponent></HeaderComponent>
+            <HeaderComponent/>
+            <HomeBody/>
         </div>
     )
 }

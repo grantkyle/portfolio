@@ -7,13 +7,13 @@ const HeaderComponent = (props) => {
   return (
     <div className="row gkp-header">
       <Navbar bg="light" expand="lg">
-        <div className="col-4 gkp-header-items">
+        <div className="col-sm-4 gkp-header-items gkp-header--projects">
           <Navbar.Brand className="gkp-header--text" href="#home">Projects</Navbar.Brand>
         </div>
-        <div className="col-4 gkp-header-items gkp-header--about">
+        <div className="col-sm-4 gkp-header-items gkp-header--about">
           <Nav.Link className="gkp-header--text" href="/">About</Nav.Link>
         </div>
-        <div className="col-4 gkp-header-items gkp-header--contact">
+        <div className="col-sm-4 gkp-header-items gkp-header--contact">
           <div className="gkp-header--text">Contact</div>
         </div>
       </Navbar>

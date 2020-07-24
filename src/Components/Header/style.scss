@@ -1,11 +1,16 @@
 .gkp-header--text {
     text-decoration: none;
+    display: inline-block;
     color: 	(0,0,139);
     &:hover {
-        text-decoration: underline;
+        text-decoration: none;
         cursor: pointer;
     }
     color: #0A0066;
+}
+
+.gkp-header {
+  max-width: 100%;
 }
 
 .gkp-header--projects {
@@ -19,13 +24,14 @@
 }
 
 .gkp-header-items {
-  font-size: 50px;
+  font-size: 45px;
   flex-direction: row;
   display: inline-block;
   padding: 30px;
   text-decoration: none;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 600;
+  width: 30%;
 }
 
 .gkp-header {
