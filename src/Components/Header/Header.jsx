@@ -13,9 +13,9 @@ const Header = (props) => {
         <div className="col-sm-3 gkp-header-items gkp-header--about">
           <Nav.Link className="gkp-header--text" href="/projects">Projects</Nav.Link>
         </div>
-        <div className="col-sm-3 gkp-header-items gkp-header--contact">
+        {/* <div className="col-sm-3 gkp-header-items gkp-header--contact">
           <Nav.Link className="gkp-header--text" href="/blog">Blog</Nav.Link>
-        </div>
+        </div> */}
       </Navbar>
     </div>
   );
