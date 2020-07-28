@@ -21,14 +21,7 @@ const Projects = () => {
                   >
                     Jobless.com
                   </a>
-                  : Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Unde repellendus excepturi, molestias, maxime obcaecati, esse
-                  nulla atque eveniet expedita fugit tempora vero! Repellendus
-                  modi eos sapiente, soluta consectetur cumque repellat! Lorem
-                  ipsum dolor sit amet consectetur adipisicing elit. Quae at
-                  atque molestiae commodi beatae porro similique. Suscipit cum
-                  animi temporibus expedita exercitationem dolorem enim eveniet,
-                  accusamus laudantium necessitatibus perspiciatis aut.
+                  : Jobless is a job listing marketplace where candidates can search for job listings and submit blog posts relating to employment or jobs in general. Currently, we are in the process of making the UI more user-friendly and mobile-friendly, and improving our search results UX. The site is made with Node and Express with a MongoDB database hosted on Atlas. We use React on the frontend and it is deployed on Heroku.
                 </p>
               </li>
               <li>
@@ -39,14 +32,7 @@ const Projects = () => {
                   >
                     COVID-19 Patient Database (Mock)
                   </a>
-                  : Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Unde repellendus excepturi, molestias, maxime obcaecati, esse
-                  nulla atque eveniet expedita fugit tempora vero! Repellendus
-                  modi eos sapiente, soluta consectetur cumque repellat! Lorem
-                  ipsum dolor sit amet consectetur adipisicing elit. Quae at
-                  atque molestiae commodi beatae porro similique. Suscipit cum
-                  animi temporibus expedita exercitationem dolorem enim eveniet,
-                  accusamus laudantium necessitatibus perspiciatis aut.
+                  : This is a a mock website where doctors can create a login and add patients to a COVID-19 database. The website is made with Node, Express and Express handlebars, using Vue on the frontend. It is deployed on Heroku. 
                 </p>
               </li>
               <li>
@@ -57,14 +43,7 @@ const Projects = () => {
                   >
                     Github User Finder
                   </a>
-                  : Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Unde repellendus excepturi, molestias, maxime obcaecati, esse
-                  nulla atque eveniet expedita fugit tempora vero! Repellendus
-                  modi eos sapiente, soluta consectetur cumque repellat! Lorem
-                  ipsum dolor sit amet consectetur adipisicing elit. Quae at
-                  atque molestiae commodi beatae porro similique. Suscipit cum
-                  animi temporibus expedita exercitationem dolorem enim eveniet,
-                  accusamus laudantium necessitatibus perspiciatis aut.
+                  : This app lets the user search for any github user by either username, name or by any query relating to a user's profile. This is a frontend app built with React. It uses Context API, Hooks and is written with functional components. It is deployed on Netlify.
                 </p>
               </li>
             </ul>
