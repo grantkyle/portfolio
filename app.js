@@ -1,4 +1,14 @@
-const port = process.env.PORT || 3030;
-app.listen(port, () => {
-  console.log(`Server listening on: http://localhost:${port}`);
-});
+const express = require("express")
+const app = express()
+
+// use the express-static middleware
+app.use(express.static("public"))
+
+// define the first route
+app.get("/", function (req, res) {
+  res.send("<h1>Hello World!</h1>")
+})
+
+// start the server listening for requests
+app.listen(process.env.PORT || 8000, 
+	() => console.log("Server is running..."));
