@@ -43,7 +43,7 @@ const Projects = () => {
                   >
                     Github User Finder
                   </a>
-                  : This app lets the user search for any github user by either username, name or by any query relating to a user's profile. This is a frontend app built with React. It uses Context API, Hooks and is written with functional components. It is deployed on Netlify.
+                  : This app lets users search for any github user by either username, name or by any query relating to a user's profile. This is a frontend app built with React. It uses Context API, Hooks and is written with functional components. It is deployed on Netlify.
                 </p>
               </li>
             </ul>
