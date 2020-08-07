@@ -24,7 +24,7 @@ const Projects = () => {
                   : Jobless is a job listing marketplace where candidates can search for job listings and submit blog posts relating to employment or jobs in general. Currently, we are in the process of making the UI more user-friendly and mobile-friendly, and improving our search results UX. The site is made with Node and Express with a MongoDB database hosted on Atlas. We use React on the frontend and it is deployed on Heroku.
                 </p>
               </li>
-              <li>
+              {/* <li>
                 <p>
                   <a
                     className="gkp-projects--content-container-link"
@@ -34,7 +34,7 @@ const Projects = () => {
                   </a>
                   : This is a a mock website where doctors can create a login and add patients to a COVID-19 database. The website is made with Node, Express and Express handlebars, using Vue on the frontend. It is deployed on Heroku. 
                 </p>
-              </li>
+              </li> */}
               <li>
                 <p>
                   <a
